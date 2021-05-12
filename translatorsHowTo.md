@@ -56,15 +56,11 @@ As you know, JSON file syntax includes curly braces (\{\}), quotes, colons, and 
   ```
 
 - If a value has an interpolation in it (an interpolation is a snippet of programming language code surrounded by two pairs of curly braces), do not modify the text between the curly braces. For example:
-  <!--
-  When interpolations ({{ }}) are processed by GitHub Pages, they get stripped out and are not displayed. The fix was to add {% raw %}.
-  When viewed within GitHub and IDEs, the interpolations do display (good), but
-  {% raw %} displays (bad).
-  -->
 
   ```json
   {% raw %}
-  "UNIVERSAL-DOWNLOAD_NAME_FILE": "Download File {{ index }}",{% endraw %}
+  "UNIVERSAL-DOWNLOAD_NAME_FILE": "Download File {{ index }}",
+  {% endraw %}
   ```
 
   In the above line, you should translate "Download File" to your language’s words, but you should not modify "index".
