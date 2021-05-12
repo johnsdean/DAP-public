@@ -1,8 +1,6 @@
 # How to Edit Translation Files (a Translator’s Guide)
 
-This document is intended for translators. In reading this document, if you find that something is wrong or unclear, please post your concern so that the wording can be improved.
-
-As a translator, you’ll be given a file with a filename of ??.json, where ?? is the domain code for the language you’re working with. For example, fr.json is DAP’s French translation file.
+This document is intended for translators. As a translator, you’ll be given a file with a filename of ??.json, where ?? is the domain code for the language you’re working with. For example, fr.json is DAP’s French translation file.
 
 The .json filename extension is required for JavaScript Object Notation (JSON) files. JSON files’ content must follow a specific format, otherwise the translation files won’t work.
 
