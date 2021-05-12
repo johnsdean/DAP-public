@@ -95,7 +95,7 @@ Go to https://codebeautify.org/jsonviewer and follow these steps:
 
   ![Code Beautify](codeBeautify.png)
 
-- After editing your code in the left panel, click the JSON Validator checkmark button (&check;) to validate your code.
+- After editing your code in the left panel, click the JSON Validator checkmark button (✓) to validate your code.
   If you get a “Valid JSON” message, that means there are no errors.
   If you get error messages, fix the errors.
 - Click the Beautify button. If you’re happy with the beautified result in the right panel, click the right panel’s download icon and save your file locally.
