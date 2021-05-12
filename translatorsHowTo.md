@@ -57,9 +57,15 @@ As you know, JSON file syntax includes curly braces (\{\}), quotes, colons, and 
 
 - If a value has an interpolation in it (an interpolation is a snippet of programming language code surrounded by two pairs of curly braces), do not modify the text between the curly braces. For example:
 
+{% raw %}
+test {{ test }} end
+{% endraw %}
   ```json
+{% raw %}
   "UNIVERSAL-DOWNLOAD_NAME_FILE": "Download File {{ index }}",
+{% endraw %}
   ```
+
   In the above line, you should translate "Download File" to your language’s words, but you should not modify "index".
 
 - If a value has a URL in it (http://, https://, mailto:, etc.) do not modify the URL. For example:
