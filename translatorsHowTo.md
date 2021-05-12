@@ -63,7 +63,8 @@ As you know, JSON file syntax includes curly braces (\{\}), quotes, colons, and 
   -->
 
   ```json
-  {% raw %}"UNIVERSAL-DOWNLOAD_NAME_FILE": "Download File {{ index }}",{% endraw %}
+  {% raw %}
+  "UNIVERSAL-DOWNLOAD_NAME_FILE": "Download File {{ index }}",{% endraw %}
   ```
 
   In the above line, you should translate "Download File" to your language’s words, but you should not modify "index".
