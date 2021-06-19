@@ -55,7 +55,7 @@ As you know, JSON file syntax includes curly braces (\{\}), quotes, colons, and 
   "---------------- THIS IS A COMMENT actual-comment-goes-here--------": "",
   ```
 
-- If a value has an interpolation in it (an interpolation is a snippet of programming language code surrounded by two pairs of curly braces), do not modify the text between the curly braces. For example:
+- If a value has a snippet of programming language code surrounded by two pairs of curly braces, do not modify the text between the curly braces. The text-between-curly-braces fragment is known as an *interpolation*. Here's an example:
 
   <!--
   When interpolations ({{ }}) are processed by GitHub Pages, they get stripped out and are not displayed.
